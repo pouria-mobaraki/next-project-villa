@@ -1,4 +1,16 @@
+
 import React from "react";
+// import "@fortawesome/fontawesome-svg-core/styles.css";
+// import { config } from "@fortawesome/fontawesome-svg-core";
+// config.autoAddCss = false;
+
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import {
+//   faGlobe,
+//   faCircleStop
+// } from "@fortawesome/free-solid-svg-icons";
+
+
 
 function Features() {
   return (
@@ -6,6 +18,9 @@ function Features() {
       <div className="featur">
         <span className="featur__icon">
           <i className="fa fa-globe"></i>
+          {/* <FontAwesomeIcon>
+            {faGlobe}
+          </FontAwesomeIcon> */}
         </span>
         <h4 className="u-heading--dark">بهترین خانه های لوکس جهان</h4>
         <p className="u-paragraph">
